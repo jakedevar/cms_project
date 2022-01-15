@@ -1,0 +1,59 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.5.0)
+    builder (3.2.4)
+    coderay (1.1.3)
+    erubis (2.7.0)
+    method_source (1.0.0)
+    minitest (5.15.0)
+    minitest-reporters (1.5.0)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
+    multi_json (1.15.0)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    rack (2.2.3)
+    rack-protection (2.1.0)
+      rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    redcarpet (3.5.1)
+    ruby-progressbar (1.11.0)
+    ruby2_keywords (0.0.5)
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
+      tilt (~> 2.0)
+    sinatra-contrib (2.1.0)
+      multi_json
+      mustermann (~> 1.0)
+      rack-protection (= 2.1.0)
+      sinatra (= 2.1.0)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+    webrick (1.7.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  erubis
+  minitest
+  minitest-reporters
+  pry
+  rack
+  rack-test
+  redcarpet
+  sinatra
+  sinatra-contrib
+  webrick
+
+BUNDLED WITH
+   2.3.5
